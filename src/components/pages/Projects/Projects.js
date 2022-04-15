@@ -1,10 +1,17 @@
 import React from 'react';
+import Project from './Project';
+import {projectData} from './projectData';
+import './projects.css';
 
-function Projects () {
+function Projects ({setPage,setProjectId}) {
     
     return (
-        <div>
-            Project
+        <div className='projectContainer' >
+            {projectData.map((projectInfo,index)=>
+                <div key={index}>
+                    <Project projectInfo={projectInfo} setPage={setPage} setProjectId={setProjectId} id={index}/>
+                </div>
+                )}
         </div>
     )
 }

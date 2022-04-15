@@ -1,0 +1,1 @@
+export const navigationLinks = ['About','Portfolio','Contact','Resume']

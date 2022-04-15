@@ -1,8 +1,10 @@
 import React from 'react';
 import Nav from './Nav';
 import './header.css';
+import {navigationLinks} from './navigationData';
+
 function Header ({setPage}) {
-    const navigationLinks = ['About','Portfolio','Contact','Resume']
+
     return (
         <div className="navContainer">
             {navigationLinks.map((navItem,index)=>
