@@ -1,0 +1,6 @@
+.navContainer{
+    display:flex;
+    justify-content: space-around;
+    background-color: #2b2b2b;
+    color:white;
+}
