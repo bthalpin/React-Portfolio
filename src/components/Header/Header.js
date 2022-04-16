@@ -3,13 +3,13 @@ import Nav from './Nav';
 import './header.css';
 import {navigationLinks} from './navigationData';
 
-function Header ({setPage}) {
+function Header ({page,setPage}) {
 
     return (
         <div className="navContainer">
-            {navigationLinks.map((navItem,index)=>
+            {navigationLinks.map((navLink,index)=>
                 <div key={index}>
-                    <Nav navItem={navItem} setPage={setPage} />
+                    <Nav navLink={navLink} page={page} setPage={setPage} />
                 </div>
             )}
         </div>

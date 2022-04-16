@@ -1,0 +1,7 @@
+.footerContainer{
+    background-color: #5b687e;
+    padding:1.5rem;
+    position:absolute;
+    bottom:0;
+    width:100vw;
+}

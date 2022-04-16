@@ -1,6 +1,6 @@
 import Project from './Project';
 import ProjectDetails from './ProjectDetails';
-import Projects from './Projects';
+import Portfolio from './Portfolio';
 
 
-export {Project,Projects,ProjectDetails}
+export {Project,Portfolio,ProjectDetails}

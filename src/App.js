@@ -1,6 +1,6 @@
 import './App.css';
-import Portfolio from './components/Portfolio';
+import Main from './components/Main';
 
-const App = () => <Portfolio />
+const App = () => <Main />
 
 export default App;

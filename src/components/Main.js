@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { About, Projects, ProjectDetails, Contact, Resume } from './pages';
+import { About, Portfolio, ProjectDetails, Contact, Resume } from './pages';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
-function Portfolio () {
+function Main () {
     const [page,setPage] = useState('About');
     const [projectId,setProjectId] = useState(0);
 
@@ -11,9 +12,9 @@ function Portfolio () {
             case 'About':
                 return <About />
             case 'Portfolio':
-                return <Projects setPage={setPage} setProjectId={setProjectId}/>
+                return <Portfolio setPage={setPage} setProjectId={setProjectId}/>
             case 'ProjectDetails':
-                return <ProjectDetails projectId={projectId} />
+                return <ProjectDetails projectId={projectId} setPage={setPage} />
             case 'Contact':
                 return <Contact />
             case 'Resume':
@@ -24,11 +25,12 @@ function Portfolio () {
         }
     }
     return (
-        <div>
-           <Header setPage={setPage}/>
+        <div className="main">
+           <Header page={page} setPage={setPage}/>
            {renderPage()}
+           <Footer />
         </div>
     )
 }
 
-export default Portfolio;
+export default Main;

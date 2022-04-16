@@ -1,0 +1,70 @@
+.projectContainer,.projectDetailContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:80vw;
+    margin:2rem auto 5rem auto;
+}
+.projectCard {
+    margin:1rem;
+    width:400px;
+    min-height:300px;
+    text-align: center;
+    border-radius:0.2rem;
+    padding:1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem gray;
+    transition:transform 0.3s ease-in-out;
+    cursor: pointer;
+    position:relative;
+}
+.projectCard:hover{
+    transform: scale(1.05);
+}
+.projectCard:hover h2{
+    box-shadow: 0rem 0rem 2rem white;
+}
+.detail{
+    /* min-height:300px; */
+}
+.projectCardInfo{
+    height:290px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectCardInfo h2{
+    background-color: white;
+    padding:1rem;
+    border-radius: 0.2rem;
+    transition:all 0.3s ease-in-out;
+
+}
+.projectPicture{
+    width:25%;
+    height:25%;
+    transition:transform 0.3s ease-in-out;
+
+}
+.projectPicture:hover{
+    transform:scale(1.1)
+}
+.large{
+    width:80%;
+    height:80%;
+    position:absolute;
+    top:10%;
+    left:10%;
+}
+.projectOne{
+    background-image: url(/public/images/projectOneMain.png);
+}
+.projectTwo{
+    background-image: url(/public/images/projectTwoMain.png);
+}
+.projectThree{
+    background-image: url(/public/images/projectThreeMain.png);
+}
+.projectOne,.projectTwo,.projectThree {
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,22 @@
+.aboutContainer{
+    padding:3rem;
+    display:flex;
+    justify-content: space-around;
+}
+.portraitContainer{
+    width:20rem;
+    height:21rem;
+    padding:1rem;
+    border-radius: 0.1rem;
+    background-color: #e8e8e8;
+    margin:0 3rem;
+    
+}
+.portrait img{
+   width:18rem;
+}
+
+#name{
+
+    font-size: 3rem;
+}

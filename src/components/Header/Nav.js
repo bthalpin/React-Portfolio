@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Nav ({navItem,setPage}) {
+function Nav ({navLink,page,setPage}) {
 
     return (
-        <div onClick={()=>setPage(navItem)}>
-            {navItem}
+        <div className={`navLink ${navLink===page?'selected':''}`} onClick={()=>setPage(navLink)}>
+            {navLink}
         </div>
     )
 }

@@ -6,15 +6,15 @@ function Project ({projectInfo,setPage,setProjectId,id}) {
         setProjectId(id);
         setPage('ProjectDetails');
     }
-    const idNames = ['one','two','three']
+    
     return(   
-        <div className='projectCard' id={idNames[id]} onClick={()=>getDetails(id)}>  
-            <section className="">
-                <section className="" >
+        <div className={`projectCard ${projectInfo.class}`} onClick={()=>getDetails(id)}>  
+            <section className="projectCardInfo">
+                
             
                     <h2 >{projectInfo.name}</h2>
 
-                </section>
+                
 
             </section>
        

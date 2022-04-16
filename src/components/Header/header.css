@@ -1,6 +1,19 @@
 .navContainer{
     display:flex;
     justify-content: space-around;
-    background-color: #2b2b2b;
+    background-color: #425472;
+    color:rgb(214, 214, 214);
+    padding:1.5rem;
+}
+.navLink{
+    cursor: pointer;
+}
+.navLink:hover{
+    text-shadow: 0 0 0.5rem white;
+}
+.selected{
+    font-weight:bold;
     color:white;
+    text-shadow: 0 0 0.5rem white;
+
 }
