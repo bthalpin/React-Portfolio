@@ -3,17 +3,20 @@
     justify-content: space-around;
     background-color: #425472;
     color:rgb(214, 214, 214);
-    padding:1.5rem;
+    /* padding-top:1.4rem; */
 }
 .navLink{
+    padding:1.4rem;
+
     cursor: pointer;
+    /* height:2.9rem; */
 }
 .navLink:hover{
     text-shadow: 0 0 0.5rem white;
 }
 .selected{
-    font-weight:bold;
+    /* font-weight:bold; */
     color:white;
     text-shadow: 0 0 0.5rem white;
-
+    background-color: #5b74a0;
 }

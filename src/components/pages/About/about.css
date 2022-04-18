@@ -20,3 +20,34 @@
 
     font-size: 3rem;
 }
+@media screen and (max-width:800px) {
+    .aboutContainer{
+        display:block;
+
+    }
+    .portraitContainer{
+        margin:0 auto 2rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .aboutContainer{
+        padding:0;
+
+    }
+    .aboutContainer>section{
+        padding: 0 0.8rem;
+        margin-bottom:5rem;
+    }
+    .portraitContainer,.portrait{
+        width:100vw;
+        padding:0;
+        margin:2rem 0 3rem;
+        height:auto;
+    }
+    .portrait{
+        padding:1rem 0;
+    }
+    .portrait>img{
+        width:100vw;
+    }
+}
