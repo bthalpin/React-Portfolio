@@ -3,7 +3,7 @@ import Project from './Project';
 import {projectData} from './projectData';
 import './projects.css';
 
-function Projects ({setPage,setProjectId}) {
+function Portfolio ({setPage,setProjectId}) {
     
     return (
         <div className='projectContainer' >
@@ -16,4 +16,4 @@ function Projects ({setPage,setProjectId}) {
     )
 }
 
-export default Projects;
+export default Portfolio;

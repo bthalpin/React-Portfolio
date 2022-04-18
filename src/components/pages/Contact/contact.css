@@ -1,0 +1,73 @@
+.contactContainer{
+    width:70vw;
+    max-width: 550px;
+    display:flex;
+    flex-direction: column;
+    margin:2rem auto;
+    padding:1rem 2rem;
+    align-items: center;
+    box-shadow: 0 0 0.5rem #a1a1a1;
+}
+.nameContainer{
+   display:flex;
+
+   justify-content: space-between;
+}
+.nameContainer>input{
+    width:49%;
+}
+.contactInput,.contactMessage{
+    
+    border:none;
+    border-radius: 0.2rem;
+    padding:0.5rem;
+    background-color: rgb(236, 242, 252);
+    
+    box-shadow: 0 0 0.4rem rgb(43, 74, 154) inset;
+
+}
+.contactInput:focus,.contactMessage:focus{
+    outline:2px solid rgb(69, 121, 250);
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 0 0.4rem rgb(57, 97, 200) inset;
+}
+.contactContainer>input{
+    margin:0.5rem;
+}
+.contactCard{
+    width:60vw;
+    max-width:500px;
+}
+.contactBtn{
+    padding:0.5rem 2rem;
+    margin:1rem;
+    border-radius:0.3rem;
+    background-color: rgb(69, 121, 250);
+    color:white;
+}
+@media screen and (max-width:500px) {
+    .nameContainer{
+        display:block;
+    }
+    .nameContainer input{
+        width:100%;
+        margin-top:0.5rem;
+    }
+    .contactContainer{
+        width:90vw;
+    }
+    .contactCard{
+        width:80vw;
+    }
+    
+}
+@media screen and (max-width:300px) {
+   
+    .contactContainer{
+        width:100vw;
+    }
+    .contactCard{
+        width:95vw;
+    }
+    
+}
