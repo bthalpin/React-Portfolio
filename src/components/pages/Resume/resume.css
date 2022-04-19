@@ -8,7 +8,7 @@
 }
 .resumeContainer{
     margin:2rem auto;
-    width:200px;
+    width:60vw;
     padding:0.5rem;
     background-color: #f3f3f3;
     border-top:1px solid white;
@@ -23,7 +23,7 @@
     transform: scale(1.02);
 }
 .resumeContainer img{
-    width:180px;
+    width:58vw;
     border:1px solid #a1a1a1;
 }
 .resumeLink{
@@ -37,22 +37,25 @@
     display:flex;
     justify-content: space-around;
     width:60vw;
-    margin:auto;
+    margin:0 auto 7rem;
     /* border:1px solid red; */
 }
 .skills{
-    height:10rem;
+    /* height:10rem; */
     width:29vw;
     padding:1rem;
     border-radius: 0.2rem;
-    /* box-shadow: 0.1rem 0.1rem 0.1rem #919191 inset;
+    box-shadow: 0.1rem 0.1rem 0.1rem #919191 inset;
     border-right:2px solid white;
-    border-bottom:2px solid white; */
+    border-bottom:2px solid white;
     text-align: center;
 }
 .skills li{
     list-style-type:none;
     padding:0.2rem;
+}
+.darkSkill{
+    background-color: #cfcfcf;
 }
 
 @media screen and (max-width:500px) {

@@ -2,19 +2,15 @@ import React, {useState} from 'react';
 import './contact.css';
 
 function Contact () {
-    const [first,SetFirst] = useState('')
-    const [last,SetLast] = useState('')
+    const [name,SetName] = useState('')
     const [email,SetEmail] = useState('')
     const [message,SetMessage] = useState('')
 
     const handleInput = (e) => {
         console.log(e)
         const {name,value} = e.target
-        if (name === 'first'){
-            SetFirst(value)
-        }
-        if (name === 'last'){
-            SetLast(value)
+        if (name === 'name'){
+            SetName(value)
         }
         if (name === 'email'){
             SetEmail(value)
@@ -26,58 +22,53 @@ function Contact () {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(first,last,email,message)
     }
 
     return (
         <div>
             <form  onSubmit={handleSubmit} className="contactContainer">
-                <div className='nameContainer contactCard'>
+                {/* <div className='nameContainer contactCard'> */}
+                    <label htmlFor='name'>Name: </label>
                     <input
-                        name='first'
+                        name='name'
                         type='text'
-                        value={first}
+                        value={name}
                         onBlur={handleInput}
                         onChange={handleInput}
-                        placeholder='First Name'
-                        className="contactInput"
+                        placeholder='Name'
+                        className="contactInput contactCard"
                         required
                         >
                     </input>
-                    <input
-                        name='last'
-                        type='text'
-                        value={last}
-                        onChange={handleInput}
+                    
 
-                        placeholder='Last Name'
-                        className="contactInput"
+                {/* </div> */}
+                <label htmlFor='email'>Email: </label>
 
-                        required
-
-                        >
-                    </input>
-
-                </div>
                 <input
                     name='email'
                     type='email'
                     value={email}
                     onChange={handleInput}
 
-                    placeholder='email'
+                    placeholder='Email'
                     className="contactInput contactCard"
 
                     required
                     >
                 </input>
+                <label htmlFor='message'>Message: </label>
+
                 <textarea
                     name="message"
                     value={message}
                     onChange={handleInput}
                     className="contactMessage contactCard"
                 ></textarea>
-                <button className="contactBtn">Submit</button>
+                <div className="contactBtnContainer">
+
+                <button className="contactBtn">SUBMIT</button>
+                </div>
             </form>
         </div>
     )
