@@ -8,7 +8,7 @@
 }
 .resumeContainer{
     margin:2rem auto;
-    width:60vw;
+    width:30vw;
     padding:0.5rem;
     background-color: #f3f3f3;
     border-top:1px solid white;
@@ -18,12 +18,14 @@
     box-shadow: 0.2rem 0.2rem 0.5rem #a1a1a1;
     border-radius: 0.2rem;
     transition: transform 0.2s ease-in-out;
+    display:flex;
+    justify-content: center;
 }
 .resumeContainer:hover{
     transform: scale(1.02);
 }
 .resumeContainer img{
-    width:58vw;
+    width:28vw;
     border:1px solid #a1a1a1;
 }
 .resumeLink{
@@ -57,9 +59,21 @@
 .darkSkill{
     background-color: #cfcfcf;
 }
-
+@media screen and (max-width:800px) {
+    .skillContainer{
+        width:90vw;
+    }
+    .skills{
+        width:43vw;
+    }
+}
 @media screen and (max-width:500px) {
-
+    .resumeContainer{
+        width:80vw;
+    }
+    .resumeContainer img{
+        width:78vw;
+    }
     .skillContainer{
         display:block;
         width:100vw;
