@@ -1,6 +1,39 @@
-import './App.css';
-import Main from './components/Main';
+import React, { useState } from 'react';
+import { About, Portfolio, Contact, Resume } from './components/pages';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
-const App = () => <Main />
+function App () {
+    const [page,setPage] = useState('About Me');
+    const [projectId,setProjectId] = useState(0);
+
+    const renderPage = () => {
+        switch (page) {
+            case 'About Me':
+                return <About />
+            case 'Portfolio':
+                return <Portfolio setPage={setPage} setProjectId={setProjectId}/>
+            case 'Contact':
+                return <Contact />
+            case 'Resume':
+                return <Resume />
+            default:
+                return <About />
+                 
+            // 
+            // FOR FUTURE DEVELOPMENT
+            //     
+            // case 'ProjectDetails':
+            //     return <ProjectDetails projectId={projectId} setPage={setPage} />
+        }
+    }
+    return (
+        <div className="main">
+           <Header page={page} setPage={setPage}/>
+           {renderPage()}
+           <Footer />
+        </div>
+    )
+}
 
 export default App;

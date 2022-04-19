@@ -1,7 +1,28 @@
-.footerContainer{
+.footer{
     background-color: #5b687e;
-    padding:1.5rem;
+    padding:0.5rem;
     position:absolute;
     bottom:0;
     width:100%;
+    
+}
+.footerContainer{
+    margin:auto;
+    width:60%;
+    display:flex;
+    justify-content: space-around;
+}
+.footerContainer a{
+    height:3rem;
+}
+.githubLogo{
+    width:3.2rem;
+}
+.linkedInLogo{
+    width:3rem;
+
+}
+.stackOverflowLogo{
+    width:2.5rem;
+
 }

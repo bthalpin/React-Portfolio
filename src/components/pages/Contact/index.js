@@ -8,7 +8,7 @@ function Contact () {
     const [message,SetMessage] = useState('')
 
     const handleInput = (e) => {
-        
+        console.log(e)
         const {name,value} = e.target
         if (name === 'first'){
             SetFirst(value)
@@ -37,6 +37,7 @@ function Contact () {
                         name='first'
                         type='text'
                         value={first}
+                        onBlur={handleInput}
                         onChange={handleInput}
                         placeholder='First Name'
                         className="contactInput"

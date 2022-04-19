@@ -1,6 +1,10 @@
 import Project from './Project';
-import ProjectDetails from './ProjectDetails';
 import Portfolio from './Portfolio';
 
+// 
+// FOR FUTURE DEVELOPMENT
+// 
+// import ProjectDetails from './ProjectDetails';
 
-export {Project,Portfolio,ProjectDetails}
+
+export {Project,Portfolio}

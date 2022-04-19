@@ -1,6 +1,6 @@
-import About from './About/About';
-import Contact from './Contact/Contact';
-import {Portfolio,ProjectDetails} from './Portfolio/';
-import Resume from './Resume/Resume';
+import About from './About/';
+import Contact from './Contact/';
+import {Portfolio} from './Portfolio/';
+import Resume from './Resume/';
 
-export {About,Contact,Portfolio,ProjectDetails,Resume}
+export {About,Contact,Portfolio,Resume}
