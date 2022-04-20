@@ -28,7 +28,7 @@ function Project ({projectInfo}) {
                         <div>
                         <a className="codeLink" href={projectInfo.github} target="blank">
 
-                        <img className='projectCode' src="/images/github-logo.png"></img>
+                        <img className='projectCode' src="/images/github-logo.png" alt="GitHub Logo"></img>
                         </a>
 
                         </div>

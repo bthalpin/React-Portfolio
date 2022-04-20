@@ -5,14 +5,18 @@ import Footer from './components/Footer/Footer';
 
 function App () {
     const [page,setPage] = useState('About Me');
-    const [projectId,setProjectId] = useState(0);
 
+    // 
+    // FOR FUTURE DEVELOPMENT
+    // 
+    const [projectId,setProjectId] = useState(0);
+    
     const renderPage = () => {
         switch (page) {
             case 'About Me':
                 return <About />
             case 'Portfolio':
-                return <Portfolio setPage={setPage} setProjectId={setProjectId}/>
+                return <Portfolio setPage={setPage} projectId={projectId} setProjectId={setProjectId}/>
             case 'Contact':
                 return <Contact />
             case 'Resume':
