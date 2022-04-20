@@ -1,26 +1,17 @@
+/* Contact Form */
 .contactContainer{
     width:70vw;
     max-width: 550px;
-    /* display:flex;
-    flex-direction: column; */
     margin:2rem auto 5rem;
     padding:1rem 2rem;
-    /* align-items: center; */
     box-shadow: 0 0 0.5rem #a1a1a1;
     background-color: #eeeded;
     border-radius: 0.2rem;
 
 }
-/* .nameContainer{
-   display:flex;
 
-   justify-content: space-between;
-}
-.nameContainer>input{
-    width:49%;
-} */
+/* Inputs */
 .contactInput,.contactMessage{
-    /* min-width: 100%; */
     width:100%;
     border:none;
     border-radius: 0.2rem;
@@ -31,21 +22,19 @@
     box-shadow: 0 0 0.4rem rgb(43, 74, 154) inset;
 
 }
+
+/* Text area */
 .contactMessage{
     height:10rem;
 }
+
 .contactInput:focus,.contactMessage:focus{
     outline:2px solid rgb(69, 121, 250);
     background-color: rgb(255, 255, 255);
     box-shadow:  0 0 0.4rem rgb(57, 97, 200) inset;
 }
-.contactContainer>input{
-    /* margin:0.5rem; */
-}
-.contactCard{
-    /* width:60vw;
-    max-width:500px; */
-}
+
+/* Submit button */
 .contactBtnContainer{
     display:flex;
     justify-content: center;
@@ -62,7 +51,6 @@
     color:#eeeded;
     font-size:1.1rem;
     box-shadow:0.2rem 0.2rem 0.2rem gray;
-    /* font-weight:bold; */
     transition: transform 0.2s ease-in-out;
 }
 .contactBtn:hover{
@@ -82,18 +70,12 @@
     .contactContainer{
         width:100vw;
     }
-    .contactCard{
-        /* width:80vw; */
-    }
     
 }
 @media screen and (max-width:300px) {
    
     .contactContainer{
         width:100vw;
-    }
-    .contactCard{
-        /* width:95vw; */
     }
     
 }

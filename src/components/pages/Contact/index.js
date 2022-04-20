@@ -6,6 +6,8 @@ function Contact () {
     const [email,SetEmail] = useState('')
     const [message,SetMessage] = useState('')
     const [errorMessage,setErrorMessage] = useState('')
+
+    // Updates the state when something is typed
     const handleInput = (e) => {
         
         const {name,value} = e.target
@@ -19,6 +21,8 @@ function Contact () {
             SetMessage(value)
         }
     }
+
+    // Displays error message if input is selected and then unselected without entering the appropriate value
     const checkInput = (e) => {
         const {name,value} = e.target
         
@@ -41,6 +45,8 @@ function Contact () {
             }
         }
     }
+
+    // Passes the data from the form if the email is valid - console.log the data as placeholder before setting up backend
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/.test(email)){
@@ -53,26 +59,23 @@ function Contact () {
     return (
         <div>
             <form  onSubmit={handleSubmit} className="contactContainer">
-                {/* <div className='nameContainer contactCard'> */}
-                    <label htmlFor='name'>Name: </label>
-                    <input
-                        name='name'
-                        type='text'
-                        value={name}
-                        onBlur={checkInput}
-                        onChange={handleInput}
-                        onClick={()=>setErrorMessage('')}
+                
+                <label htmlFor='name'>Name: </label>
+                <input
+                    name='name'
+                    type='text'
+                    value={name}
+                    onBlur={checkInput}
+                    onChange={handleInput}
+                    onClick={()=>setErrorMessage('')}
 
-                        placeholder='Name'
-                        className="contactInput contactCard"
-                        required
-                        >
-                    </input>
+                    placeholder='Name'
+                    className="contactInput contactCard"
+                    required
+                    >
+                </input>
                     
-
-                {/* </div> */}
                 <label htmlFor='email'>Email: </label>
-
                 <input
                     name='email'
                     type='email'
@@ -82,25 +85,24 @@ function Contact () {
                     onClick={()=>setErrorMessage('')}
                     placeholder='Email'
                     className="contactInput contactCard"
-
                     required
                     >
                 </input>
-                <label htmlFor='message'>Message: </label>
 
+                <label htmlFor='message'>Message: </label>
                 <textarea
                     name="message"
                     value={message}
                     onBlur={checkInput}
                     onClick={()=>setErrorMessage('')}
-
                     onChange={handleInput}
                     className="contactMessage contactCard"
                 ></textarea>
-                <div>{errorMessage}</div>
-                <div className="contactBtnContainer">
 
-                <button className="contactBtn">SUBMIT</button>
+                <div>{errorMessage}</div>
+
+                <div className="contactBtnContainer">
+                    <button className="contactBtn">SUBMIT</button>
                 </div>
             </form>
         </div>

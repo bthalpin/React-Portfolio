@@ -6,16 +6,18 @@ function Resume () {
         <div>
             <div className="resumeBackground">
 
-            <div className="resumeContainer">
-                <a className="resumeLink" href="/documents/Brian-Halpin-Resume-2022.pdf" download>
-                    {/* <div className=""> */}
-                            <img src="/images/Resume.png" alt="Resume"></img>
+                <div className="resumeContainer">
+                    <a className="resumeLink" href="/documents/Brian-Halpin-Resume-2022.pdf" download>
+                        
+                        <img src="/images/Resume.png" alt="Resume"></img>
                         <p>DOWNLOAD RESUME</p>
-                    {/* </div> */}
-                </a>
+                        
+                    </a>
 
+                </div>
             </div>
-            </div>
+
+            {/* Skills mapped from resumeData.js */}
             <div className="skillContainer">
                 <div className="skills">
                     <h2>Front-end Skills</h2>

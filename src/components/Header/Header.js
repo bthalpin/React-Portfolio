@@ -8,17 +8,18 @@ function Header ({page,setPage}) {
     return (
         <div className="navContainer">
 
-        <div className="navName">
-                HALPIN
-        </div>
-        <div className="navLinkContainer">  
-            
-            {navigationLinks.map((navLink,index)=>
-                <div key={index}>
-                    <Nav navLink={navLink} page={page} setPage={setPage} />
-                </div>
-            )}
-        </div>
+            <div className="navName">
+                    HALPIN
+            </div>
+            <div className="navLinkContainer">  
+
+                {/* Navigation Links mapped from the navagationData.js file */}
+                {navigationLinks.map((navLink,index)=>
+                    <div key={index}>
+                        <Nav navLink={navLink} page={page} setPage={setPage} />
+                    </div>
+                )}
+            </div>
         </div>
     )
 }

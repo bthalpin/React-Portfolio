@@ -11,6 +11,7 @@ function App () {
     // 
     const [projectId,setProjectId] = useState(0);
     
+    // Returns component to load depending on the page selected
     const renderPage = () => {
         switch (page) {
             case 'About Me':

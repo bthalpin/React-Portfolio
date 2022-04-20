@@ -1,11 +1,4 @@
-.resumeBackground{
-    /* box-shadow:0.1rem 0rem 0.1rem #919191 inset;
-    border-right:2px solid white;
-    border-bottom:2px solid white;
-    width:59vw;
-    margin:0 auto 2rem;
-    padding:2rem; */
-}
+/* Resume card */
 .resumeContainer{
     margin:2rem auto;
     width:30vw;
@@ -29,21 +22,20 @@
     border:1px solid #a1a1a1;
 }
 .resumeLink{
-    /* margin:0.3rem; */
     color:black;
     text-align: center;
     font-weight:500;
     text-decoration: none;
 }
+
+/* Skills */
 .skillContainer{
     display:flex;
     justify-content: space-around;
     width:60vw;
     margin:0 auto 7rem;
-    /* border:1px solid red; */
 }
 .skills{
-    /* height:10rem; */
     width:29vw;
     padding:1rem;
     border-radius: 0.2rem;

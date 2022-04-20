@@ -5,6 +5,7 @@ import './projects.css';
 
 function Portfolio ({setPage,setProjectId}) {
     
+    // Returns each project in the projectData.js
     return (
         <div className='projectContainer' >
             {projectData.map((projectInfo,index)=>
