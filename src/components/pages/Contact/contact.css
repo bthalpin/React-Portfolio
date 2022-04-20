@@ -53,21 +53,22 @@
 .contactBtn{
     padding:0.5rem 2rem;
     margin:1rem auto;
-    border-radius:0.3rem;
-    border-top:2px solid #fec697;
-    border-left:2px solid #fec697;
-    border-bottom:2px solid #895226;
-    border-right:2px solid #895226;
-    background-color: #f48023;
+    border-radius:0.5rem;
+    border-top:3px solid #fec697;
+    border-left:3px solid #fec697;
+    border-bottom:3px solid #895226;
+    border-right:3px solid #895226;
+    background-color: #3f3f3f;
     color:#eeeded;
     font-size:1.1rem;
+    box-shadow:0.2rem 0.2rem 0.2rem gray;
     /* font-weight:bold; */
     transition: transform 0.2s ease-in-out;
 }
 .contactBtn:hover{
     transform:scale(1.02);
     color:white;
-    background-color: #fe9845;
+    background-color: rgb(86, 86, 86);
     cursor: pointer;
 }
 @media screen and (max-width:500px) {

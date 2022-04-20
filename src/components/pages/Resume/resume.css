@@ -52,6 +52,9 @@
     border-bottom:2px solid white;
     text-align: center;
 }
+.skills h2{
+    font-weight:500;
+}
 .skills li{
     list-style-type:none;
     padding:0.2rem;

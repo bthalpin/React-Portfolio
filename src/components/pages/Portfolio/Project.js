@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './projects.css';
 
 function Project ({projectInfo}) {
-
+    const [linkVisible,setLinkVisible] = useState(false)
 // 
 // FOR FUTURE DEVELOPMENT
 // 
@@ -13,16 +13,33 @@ function Project ({projectInfo}) {
     // }
     
     return(   
-        <div className={`projectCard ${projectInfo.class}`} >  
+        <div className={`projectCard ${projectInfo.class}`} onClick={()=>setLinkVisible(true)} onMouseOver={()=>setLinkVisible(true)} onMouseOut={()=>setLinkVisible(false)}>  
             <section className="projectCardInfo">
-                
-                    <a href={projectInfo.deployed}>
-                        
-                    <h2 >{projectInfo.name}</h2>
-                    </a>
+                    
+                    {linkVisible?
+                    <div className='projectLinkContainer'>
+                        <div>
+                        <a className="deployLink" href={projectInfo.deployed} target="blank">
+                            
+                        <h2 className='projectDeployed'>{projectInfo.name}</h2>
+                        </a>
+                            
+                        </div>
+                        <div>
+                        <a className="codeLink" href={projectInfo.github} target="blank">
 
-                
+                        <img className='projectCode' src="/images/github-logo.png"></img>
+                        </a>
 
+                        </div>
+                    </div>
+                    
+                    :
+                    <div>
+                        <h2 className='projectName'>{projectInfo.name}</h2>
+
+                    </div>
+                    }
             </section>
        
         </div>
