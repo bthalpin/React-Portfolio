@@ -30,7 +30,7 @@ export const projectData = [
         class:'projectFive'
     },
     {
-        name:'PWA Text Editor',
+        name:'Daily Planner',
         deployed:'https://bthalpin.github.io/Daily-Planner/',
         github:'https://github.com/bthalpin/Daily-Planner',
         class:'projectSix'

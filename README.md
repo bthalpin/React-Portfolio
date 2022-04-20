@@ -1,70 +1,97 @@
-<!-- # Getting Started with Create React App
+# Portfolio
+This is the portfolio of the work I've done so far in Rutgers Bootcamp.  Below you will find my three best projects. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+First is a full stack social media app, ['SnapShot'](https://snapshotban.herokuapp.com/).  You can post photos, comment on photos that you like, and if you make a mistake you can edit or delete any comment or post you make.  Created using node js, handlebars, and sequelize.
 
-## Available Scripts
+Next is a movie search site, ['What Movie Was That?'](https://bthalpin.github.io/What-Movie-Was-That/), where you can search your favorite movies to get information and watch a trailer. The app was created by my team of highly skilled software developers.  It fetches data from OMDB API for accurate movie details, and YouTube API to allow the user to watch the movie trailers.
 
-In the project directory, you can run:
+Finally is the weather app, ['Weather Forecast'](https://bthalpin.github.io/Weather-Forecast/). A weather app that fetches data from Open Weather API and allows the user to get accurate up to date weather for any city in the world.
 
-### `npm start`
+I hope you enjoy.  Feel free to contact me directly, or check out my GitHub repository and Linkedin pages by clicking the links in the contact section.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Links](#links)
 
-### `npm test`
+[Media](#media)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[License](#license)
 
-### `npm run build`
+[Questions](#questions)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Links
+[Portfolio](https://bthalpin.github.io/Portfolio)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[SnapShot - App](https://snapshotban.herokuapp.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[SnapShot - Code](https://github.com/Akaiafas526/SnapShot)
 
-### `npm run eject`
+[What Movie Was That? - App](https://bthalpin.github.io/What-Movie-Was-That/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[What Movie Was That? - Code](https://github.com/bthalpin/What-Movie-Was-That)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Weather Forecast - App](https://bthalpin.github.io/Weather-Forecast/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Weather Forecast - Code](https://github.com/bthalpin/Weather-Forecast)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Media
+The following image displays the full portfolio page:
+![Portfolio page for Brian Halpin](./assets/images/main-page.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This image displays modal that is displayed when the project is clicked:
+![Portfolio work section with mouse hovering project 1 displaying the details of the project and a glow effect](./assets/images/main-page-bottom.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Questions
+If you have any questions about the repo, open an issue or contact us directly at <brian.t.halpin@gmail.com>. You can find more
+    of our work at [Brian Halpin](https://github.com/bthalpin), [Andreas Kaiafas](https://github.com/Akaiafas526), [NickBroglio](https://github.com/NickBroglio).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Portfolio
+This is the portfolio of the work I've done so far in Rutgers Bootcamp.  Below you will find my three best projects. 
 
-### Making a Progressive Web App
+First is a movie search site, ['What Movie Was That?'](https://bthalpin.github.io/What-Movie-Was-That/), where you can search your favorite movies to get information and watch a trailer. The app was created by my team of highly skilled software developers.  It fetches data from OMDB API for accurate movie details, and YouTube API to allow the user to watch the movie trailers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Next is a quiz app, ['Code Quiz'](https://bthalpin.github.io/Code-Quiz/). An app that randomly selects a number of questions that you have to answer before the time runs out.
 
-### Advanced Configuration
+Finally is the weather app, ['Weather Forecast'](https://bthalpin.github.io/Weather-Forecast/). A weather app that fetches data from Open Weather API and allows the user to get accurate up to date weather for any city in the world.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I hope you enjoy.  Feel free to contact me directly, or check out my GitHub repository and Linkedin pages by clicking the links in the contact section.
 
-### Deployment
+## Links
+[Portfolio](https://bthalpin.github.io/Portfolio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[What Movie Was That? - App](https://bthalpin.github.io/What-Movie-Was-That/)
 
-### `npm run build` fails to minify
+[What Movie Was That? - Code](https://github.com/bthalpin/What-Movie-Was-That)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+[Code Quiz - App](https://bthalpin.github.io/Code-Quiz/)
+
+[Code Quiz - Code](https://github.com/bthalpin/Code-Quiz)
+
+[Weather Forecast - App](https://bthalpin.github.io/Weather-Forecast/)
+
+[Weather Forecast - Code](https://github.com/bthalpin/Weather-Forecast)
+
+## Media
+The following image displays the full portfolio page:
+![Portfolio page for Brian Halpin](./assets/images/main-page.png)
+
+
+This image displays modal that is displayed when the project is clicked:
+![Portfolio work section with mouse hovering project 1 displaying the details of the project and a glow effect](./assets/images/main-page-bottom.png)
+
+
+## License
+This product is licensed under MIT.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2022 
+
+## Questions
+If you have any questions about the repo, open an issue or contact us directly at <brian.t.halpin@gmail.com>. You can find more
+    of our work at [Brian Halpin](https://github.com/bthalpin), [Andreas Kaiafas](https://github.com/Akaiafas526), [NickBroglio](https://github.com/NickBroglio).
+
