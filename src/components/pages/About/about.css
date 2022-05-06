@@ -3,6 +3,13 @@
     display:flex;
     justify-content: space-around;
     margin-bottom:7rem;
+    animation:aboutPage 0.4s;
+}
+@keyframes aboutPage {
+    0%{
+        opacity:0;
+        transform:translate(-100%);
+    }
 }
 .portraitContainer{
     width:20rem;
@@ -33,6 +40,7 @@
 @media screen and (max-width:400px) {
     .aboutContainer{
         padding:0;
+        animation:aboutPage 0.2s;
 
     }
     .aboutContainer>section{

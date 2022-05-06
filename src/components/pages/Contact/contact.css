@@ -1,15 +1,20 @@
 /* Contact Form */
 .contactContainer{
-    width:70vw;
+    width:100vw;
     max-width: 550px;
     margin:2rem auto 5rem;
     padding:1rem 2rem;
     box-shadow: 0 0 0.5rem #a1a1a1;
     background-color: #eeeded;
     border-radius: 0.2rem;
-
+    animation:contacts 0.5s
 }
-
+@keyframes contacts {
+    0%{
+        transform:translate(-100%);
+        opacity:0;
+    }
+}
 /* Inputs */
 .contactInput,.contactMessage{
     width:100%;
@@ -68,14 +73,8 @@
         margin-top:0.5rem;
     }
     .contactContainer{
-        width:100vw;
-    }
-    
-}
-@media screen and (max-width:300px) {
-   
-    .contactContainer{
-        width:100vw;
+        padding:1rem;
+        animation:contacts 0.2s;
     }
     
 }

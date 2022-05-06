@@ -3,7 +3,7 @@ import './resume.css';
 import {skills} from './resumeData';
 function Resume () {
     return (
-        <div>
+        <div className="resumePage">
             <div className="resumeBackground">
 
                 <div className="resumeContainer">
@@ -24,7 +24,7 @@ function Resume () {
                     <ul>
                         {skills.front.map((skill,index)=>{
                             let background='darkSkill'
-                            if (index%2===0){
+                            if (index%2!==0){
                                 background=''
                             }
                             return <li className={background} key={index}>{skill}</li>
@@ -37,7 +37,7 @@ function Resume () {
                     <ul>
                         {skills.back.map((skill,index)=>{
                             let background='darkSkill'
-                            if (index%2===0){
+                            if (index%2!==0){
                                 background=''
                             }
                             return <li className={background} key={index}>{skill}</li>

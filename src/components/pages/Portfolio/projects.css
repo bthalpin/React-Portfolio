@@ -17,6 +17,13 @@
     box-shadow: 0.5rem 0.5rem 0.5rem gray;
     transition:transform 0.3s ease-in-out;
     position:relative;
+    animation:projects 0.5s;
+}
+@keyframes projects {
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
 }
 .projectDetailCard{
     margin-top:3rem;
@@ -198,9 +205,12 @@
 }
 
 @media screen and (max-width:450px) {
+    
     .projectCard{
         margin:2rem 0;
         width:100vw;
+        animation:projects 0.2s;
+
     }
     .projectDetailCard,.projectDetailContainer{
         width:100vw;
