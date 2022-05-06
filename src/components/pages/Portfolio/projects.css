@@ -232,6 +232,10 @@
         animation:projects 0.2s;
 
     }
+    .projectCard:hover{
+        transform: scale(1);
+        
+    }
     .projectDetailContainer{
         width:100vw;
         display:block;
