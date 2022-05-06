@@ -13,7 +13,8 @@ export const projectData = [
         github:'https://github.com/bthalpin/What-Movie-Was-That',
         class:'projectTwo',
         summary:'SOMETHING',
-        technology:['HTML','CSS','Bootstrap','JavaScript','Handlebars','Node','Express','MySQL','Sequelize']
+        technology:'HTML, CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
+
     },
     {
         name:'Weather Forecast',
@@ -21,7 +22,8 @@ export const projectData = [
         github:'https://github.com/bthalpin/Weather-Forecast',
         class:'projectThree',
         summary:'SOMETHING',
-        technology:['HTML','CSS','Bootstrap','JavaScript','Handlebars','Node','Express','MySQL','Sequelize']
+        technology:'HTML, CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
+
     },
     {
         name:'PWA Text Editor',
@@ -29,7 +31,8 @@ export const projectData = [
         github:'https://github.com/bthalpin/text-editor-app',
         class:'projectFour',
         summary:'SOMETHING',
-        technology:['HTML','CSS','Bootstrap','JavaScript','Handlebars','Node','Express','MySQL','Sequelize']
+        technology:'HTML, CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
+
     },
     {
         name:'Code Quiz',
@@ -37,7 +40,8 @@ export const projectData = [
         github:'https://github.com/bthalpin/Code-Quiz',
         class:'projectFive',
         summary:'SOMETHING',
-        technology:['HTML','CSS','Bootstrap','JavaScript','Handlebars','Node','Express','MySQL','Sequelize']
+        technology:'HTML, CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
+
     },
     {
         name:'Daily Planner',
@@ -45,6 +49,7 @@ export const projectData = [
         github:'https://github.com/bthalpin/Daily-Planner',
         class:'projectSix',
         summary:'SOMETHING',
-        technology:['HTML','CSS','Bootstrap','JavaScript','Handlebars','Node','Express','MySQL','Sequelize']
+        technology:'HTML, CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
+
     },
 ]
