@@ -33,6 +33,16 @@ function ProjectDetails () {
                             
                             
 
+        <div className="projectBtnContainer">
+            <div>
+                
+                    <button onClick={()=>window.location=projectData[id].deployed} className="projectBtn">Demo</button>
+            </div>
+            <div>
+
+                    <button onClick={()=>window.location=projectData[id].github} className="projectBtn">Code</button>
+            </div>
+                </div>
         
         </div>
          <div className='projectInfo'>  
