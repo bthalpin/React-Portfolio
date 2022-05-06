@@ -23,11 +23,14 @@ function ProjectDetails () {
              </h2>
          <div className="projectDetailContainer">
          <div className='projectDetailCard'>  
-            <div className={`projectPicture ${projectData[id].class} ${large}`} onClick={enlarge}>
+         <a href={projectData[id].deployed}>
+            <div className={`projectPicture ${projectData[id].class}`}>
 
             </div>
+
+         </a>
         
-                            <h3>{projectData[id].name}</h3>
+                            
                             
 
         
@@ -35,11 +38,22 @@ function ProjectDetails () {
          <div className='projectInfo'>  
      
             <div className='projectSummary'>
-                <p>jdksfndsk jnsdjkfn sjfn jkdsfn kjdfnkjsdfnkj nsdjkdfnkjsdnf kjnsdfkjnsdkj fnsdkj fnsdkjfn kjsdn fjsdfnsk jdnsdf
+                <p>{projectData[id].summary}
                 </p>
             </div>
             <div className='projectTech'>
-                <p>dskjnsdkjnf lksdnlkdsnlk nfskln dklnfklsnflsnd klnf dsklnflkdsnfklsn kldfnlksdnflknsdlkfnkdlsnflksdn</p>
+                <h3>Technology Used:</h3>
+                <div className="techList">
+                    <p>{projectData[id].technology}</p>
+                {/* <ul>
+                {projectData[id].technology.map((tech,index)=>{
+                    return (
+                        <li key={index}>{tech}</li>
+                    )
+                })}
+                </ul> */}
+
+                </div>
             </div>     
 
         
