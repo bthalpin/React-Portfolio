@@ -9,7 +9,7 @@ export const projectData = [
     },
     {
         name:'SnapShot',
-        deployed:'https://snapshot-bh.herokuapp.com/',
+        deployed:'https://bh-snapshot.herokuapp.com/',
         github:'https://github.com/bthalpin/SnapShot',
         class:'projectTwo',
         summary:"A brand new social app where you can unlock a new world of networking through posting pictures that represent who you are and what you stand for. Users can browse other members posts and even view a webpage personalized just for them! Bet you can't wait to sign up!",
@@ -43,9 +43,9 @@ export const projectData = [
 
     },
     {
-        name:'Code Quiz',
-        deployed:'https://bthalpin.github.io/Code-Quiz/',
-        github:'https://github.com/bthalpin/Code-Quiz',
+        name:'Messaging App',
+        deployed:'https://bthalpin.github.io/messagingApp/',
+        github:'https://github.com/bthalpin/messagingApp',
         class:'projectSix',
         summary:'SOMETHING',
         technology:'HTML, CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
