@@ -7,6 +7,7 @@
     margin:2rem auto 5rem auto;
 }
 .projectCard {
+    /* background-color: #000000; */
     margin:1rem;
     width:400px;
     min-height:300px;
@@ -16,6 +17,33 @@
     box-shadow: 0.5rem 0.5rem 0.5rem gray;
     transition:transform 0.3s ease-in-out;
     position:relative;
+}
+.projectDetailCard{
+    margin-top:3rem;
+    width:800px;
+    height:500px;
+    text-align: center;
+    /* border-radius:10rem; */
+    padding:1rem;
+    /* box-shadow: 0.5rem 0.5rem 0.5rem gray inset;
+    border-bottom:5px solid rgb(255, 255, 255);
+    border-right:5px solid rgb(255, 255, 255); */
+    position:relative;
+}
+.projectInfo{
+    margin-top:3rem;
+    width:700px;
+}
+.projectCard::before{
+    content:'';
+    background-color: #000000;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+    border-radius: 0.2rem;
 }
 
 .projectCard:hover{
@@ -43,7 +71,15 @@
     box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.74);
     border-top:2px solid #fec697;
 }
-
+.projectTitle{
+    font-weight:500;
+    font-size: 2.5rem;
+    margin-top:1rem;
+    text-align: center;
+}
+.projectSummary p {
+    font-size:1.3rem;
+}
 .projectCardInfo{
     width: 100%;
     height:290px;
@@ -97,7 +133,7 @@
 
 /* Dulls image on hover */
 .projectOne:hover::after,.projectTwo:hover::after,.projectThree:hover::after,.projectFour:hover::after,.projectFive:hover::after,.projectSix:hover::after {
-    opacity:0.8;
+    opacity:0.6;
 }
 
 /* Deployed app link */
@@ -166,4 +202,11 @@
         margin:2rem 0;
         width:100vw;
     }
+    .projectDetailCard,.projectDetailContainer{
+        width:100vw;
+    }
+    .projectDetailCard{
+        height:300px;
+    }
+
 }

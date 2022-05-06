@@ -1,24 +1,30 @@
-import React, {useState} from 'react';
+import React, {useState,useRef,useEffect} from 'react';
+import emailjs from 'emailjs-com'
 import './contact.css';
 
 function Contact () {
-    const [name,SetName] = useState('')
-    const [email,SetEmail] = useState('')
-    const [message,SetMessage] = useState('')
+    const [name,setName] = useState('')
+    const [email,setEmail] = useState('')
+    const [message,setMessage] = useState('')
     const [errorMessage,setErrorMessage] = useState('')
+    const [confirmationMessage,setConfimationMessage] = useState('')
+    const form = useRef();
 
+    useEffect(()=>{
+        setConfimationMessage('')
+    },[])
     // Updates the state when something is typed
     const handleInput = (e) => {
         
         const {name,value} = e.target
         if (name === 'name'){
-            SetName(value)
+            setName(value)
         }
         if (name === 'email'){
-            SetEmail(value)
+            setEmail(value)
         }
         if (name === 'message'){
-            SetMessage(value)
+            setMessage(value)
         }
     }
 
@@ -45,20 +51,40 @@ function Contact () {
             }
         }
     }
-
+    // const sendEmail = (e) => {
+    //     e.preventDefault();
+    
+    //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    //       .then((result) => {
+    //           console.log(result.text);
+    //       }, (error) => {
+    //           console.log(error.text);
+    //       });
+    //   };
     // Passes the data from the form if the email is valid - console.log the data as placeholder before setting up backend
-    const handleSubmit = (e) => {
+    const sentEmail = () => {
+        setName('')
+        setEmail('')
+        setMessage('')
+        setConfimationMessage('Message sent.  I will be in touch shortly.  Thank you for your interest.')
+    }
+    const sendEmail = (e) => {
         e.preventDefault();
         if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/.test(email)){
             setErrorMessage('Invalid Email')
             return
         }
-        console.log(name,email,message)
+         emailjs.sendForm('service_czkp25u', 'template_ojdfldr', form.current, 'BexAwkXyGw4j9GAnQ')
+          .then((result) => {
+              sentEmail()
+          }, (error) => {
+              console.log(error.text);
+          });
     }
 
     return (
         <div>
-            <form  onSubmit={handleSubmit} className="contactContainer">
+            <form ref={form}  onSubmit={sendEmail} className="contactContainer">
                 
                 <label htmlFor='name'>Name: </label>
                 <input
@@ -100,7 +126,7 @@ function Contact () {
                 ></textarea>
 
                 <div>{errorMessage}</div>
-
+                <div>{confirmationMessage}</div>
                 <div className="contactBtnContainer">
                     <button className="contactBtn">SUBMIT</button>
                 </div>

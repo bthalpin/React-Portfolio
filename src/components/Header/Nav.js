@@ -1,11 +1,11 @@
 import React from 'react';
-
-function Nav ({navLink,page,setPage}) {
+import { NavLink } from 'react-router-dom';
+function Nav ({navLink}) {
 
     return (
-        <div className={`navLink ${navLink===page?'selected':''}`} onClick={()=>setPage(navLink)}>
+        <NavLink className={({isActive})=>isActive?'navLink selected':'navLink'} to={navLink==='About Me'?'/':`/${navLink}/`} >
             {navLink}
-        </div>
+        </NavLink>
     )
 }
 

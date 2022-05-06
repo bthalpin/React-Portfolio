@@ -11,18 +11,19 @@
     width:60%;
     display:flex;
     justify-content: space-around;
+    align-items: center;
 }
 .footerContainer a{
-    height:3rem;
+    /* height:3rem; */
 }
 .githubLogo{
-    width:3.2rem;
+    width:2.5rem;
 }
 .linkedInLogo{
-    width:3rem;
+    width:2rem;
 
 }
 .stackOverflowLogo{
-    width:2.5rem;
+    width:1.8rem;
 
 }

@@ -46,13 +46,25 @@
 }
 .skills h2{
     font-weight:500;
+    animation:skill 1s;
 }
 .skills li{
     list-style-type:none;
     padding:0.2rem;
+    animation:skill 1s;
+
 }
 .darkSkill{
     background-color: #cfcfcf;
+    
+}
+@keyframes skill {
+    0%{
+        transform:translate(-100%);
+        opacity:0;
+
+    }
+   
 }
 @media screen and (max-width:800px) {
     .skillContainer{
