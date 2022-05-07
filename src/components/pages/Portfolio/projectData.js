@@ -50,7 +50,7 @@ export const projectData = [
     {
         name:'Messaging App',
         deployed:'https://bthalpin.github.io/messagingApp/',
-        github:'https://github.com/bthalpin/messagingApp-old',
+        github:'https://github.com/bthalpin/messagingApp',
         class:'projectSix',
         summary:'Messaging App is a real time text messaging app.  Post in the public chat, or chat in the friends only chat.  You can press the like button if you see a post that you like and if you want to message someone directly, send them a friend request.',
         technology:'HTML/CSS, JavaScript, React, Node, Express, Postgres, Knex, Socket.io, bcrypt',
