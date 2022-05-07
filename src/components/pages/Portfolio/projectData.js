@@ -47,7 +47,7 @@ export const projectData = [
         deployed:'https://bthalpin.github.io/messagingApp/',
         github:'https://github.com/bthalpin/messagingApp',
         class:'projectSix',
-        summary:'SOMETHING',
+        summary:'test',
         technology:'HTML/CSS, JavaScript, React, Node, Express, Postgres, Knex, Socket.io, bcrypt'
 
     },
