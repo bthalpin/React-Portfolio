@@ -251,6 +251,12 @@
     cursor: pointer;
 }
 
+@media screen and (max-width:1000px) {
+    .projectDetailCard{
+        width:80vw;
+        height:60vw;
+    }
+}
 @media screen and (max-width:414px) {
     
     .projectCard{
