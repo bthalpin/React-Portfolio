@@ -4,7 +4,7 @@ export const projectData = [
         deployed:'https://charity-raffle.herokuapp.com/',
         github:'https://github.com/bthalpin/Raffles-of-Love',
         class:'projectOne',
-        summary:"A brand new social app where you can unlock a new world of networking through posting pictures that represent who you are and what you stand for. Users can browse other members posts and even view a webpage personalized just for them! Bet you can't wait to sign up!",
+        summary:"Raffles of Love is a charity raffle page.  Each charity has information and a short video on their page, as well as a number of items up for raffle.  If you see an item that you would like to buy a raffle ticket for, sign up, add it to your cart and got to the Stripe checkout page (This is a demo app.  Enter card 4242 repeating for the test card. This app is not affiliated with these charities, and no real products are being raffled off).",
         technology:'HTML/CSS, React-Bootstrap, JavaScript, React, Apollo, GraphQL, Mongoose, Node, Express, bcrypt, JSON Web Tokens, Stripe'
     },
     {
@@ -12,7 +12,7 @@ export const projectData = [
         deployed:'https://bh-snapshot.herokuapp.com/',
         github:'https://github.com/bthalpin/SnapShot',
         class:'projectTwo',
-        summary:"A brand new social app where you can unlock a new world of networking through posting pictures that represent who you are and what you stand for. Users can browse other members posts and even view a webpage personalized just for them! Bet you can't wait to sign up!",
+        summary:"A brand new social app where you can unlock a new world of networking through posting pictures that represent who you are and what you stand for. Users can browse other members posts and leave a comment if you see something you like! Bet you can't wait to sign up!",
         technology:'HTML/CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
     },
     {
