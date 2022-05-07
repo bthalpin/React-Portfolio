@@ -50,6 +50,7 @@ function ProjectDetails () {
             <div className='projectSummary'>
                 <p>{projectData[id].summary}
                 </p>
+                <p id="disclaimer">{projectData[id].disclaimer}</p>
             </div>
             <div className='projectTech'>
                 <h3>Technology Used:</h3>
