@@ -11,7 +11,7 @@
     /* background-color: #000000; */
     margin:0.5rem;
     width:400px;
-    min-height:300px;
+    height:300px;
     text-align: center;
     border-radius:0.2rem;
     padding:1rem;
@@ -251,13 +251,18 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:414px) {
     
     .projectCard{
         margin:2rem 0;
-        width:100vw;
+        width:99vw;
+        height:75vw;
         animation:projects 0.2s;
 
+    }
+    .projectName{
+        border-bottom-left-radius: 0.1rem;
+        border-bottom-right-radius: 0.1rem;
     }
     .projectCard:hover{
         transform: scale(1);
