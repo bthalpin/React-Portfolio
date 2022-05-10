@@ -19,12 +19,12 @@
 .contactInput,.contactMessage{
     width:100%;
     border:none;
-    border-radius: 0.2rem;
+    border-radius: 0.1rem;
     padding:0.5rem;
-    background-color: rgb(236, 242, 252);
+    background-color: #f6f9fe;
     margin-top:0.2rem;
     margin-bottom:0.8rem;
-    box-shadow: 0 0 0.4rem rgb(43, 74, 154) inset;
+    box-shadow: 0 0 0.4rem #708ec2 inset;
 
 }
 
@@ -34,9 +34,9 @@
 }
 
 .contactInput:focus,.contactMessage:focus{
-    outline:2px solid rgb(69, 121, 250);
+    outline:2px solid #5b687e;
     background-color: rgb(255, 255, 255);
-    box-shadow:  0 0 0.4rem rgb(57, 97, 200) inset;
+    box-shadow:  0 0 0.4rem #5b687e inset;
 }
 
 /* Submit button */
