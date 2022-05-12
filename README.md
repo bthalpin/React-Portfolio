@@ -1,8 +1,8 @@
 # Portfolio
 
-This is my portfolio for the work that I've done at Rutgers Coding Bootcamp.  The portfolio contains an about me section with a brief summary of who I am,  a project section that contains some of my best projects from the Bootcamp, a contact page to be connected to the backend in the future, and a resume page where you can download my resume.
+Hi, I'm Brian Halpin and this is the GitHub repo for my portfolio page.  My portfolio was created using React and using React Router for navigating the different pages.  The home page is the About me section with a brief description of who I am.  The portfolio section has a list of six of my top projects, if you click on them you will be taken to a project detail page to get a brief summary of the project and also be presented with a link to the deployed app and the source code on GitHub.  There is also a contact form that uses EmailJS to send out an email.  Finally there is the resume page with a link to download my resume and a brief summary of some of my skills.
 
-I hope you enjoy.  Feel free to contact me directly, or check out my GitHub repository, Linkedin, and Stack Overflow pages by clicking the links in the footer.
+I hope you enjoy.  Feel free to contact me directly, or check out my GitHub repository or Linkedin pages by clicking the links in the footer.
 
 ## Table of Contents
 
@@ -41,15 +41,23 @@ I hope you enjoy.  Feel free to contact me directly, or check out my GitHub repo
         
 ## Media
 The following image displays home page (About Me section):
+
 ![About me page for Brian Halpin](/public/images/about-page.png)
 
 This image displays the portfolio page:
+
 ![Portfolio page](public/images/project-page.png)
 
+This is the project detail page:
+
+![Project Detail Page](public/images/detail-project-page.png)
+
 This image displays the contact page:
+
 ![Contact page](public/images/contact-page.png)
 
 This image displays the resume page:
+
 ![Resume page](public/images/resume-page.png)
 
 ## Questions
