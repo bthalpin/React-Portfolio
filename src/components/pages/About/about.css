@@ -57,9 +57,11 @@
         height:auto;
     }
     .portrait{
+        display:flex;
+        justify-content: center;
         padding:1rem 0;
     }
     .portrait>img{
-        width:100vw;
+        width:90vw;
     }
 }
