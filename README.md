@@ -13,6 +13,10 @@ I hope you enjoy.  Feel free to contact me directly, or check out my GitHub repo
 [Questions](#questions)
 
 ## Links
+[Raffles of Love - App](https://charity-raffle.herokuapp.com/)
+
+[Raffles of Love - Code](https://github.com/bthalpin/Raffles-of-Love)
+
 [Portfolio](https://bthalpin.com)
 
 [SnapShot - App](https://snapshot-bh.herokuapp.com/)
@@ -31,13 +35,9 @@ I hope you enjoy.  Feel free to contact me directly, or check out my GitHub repo
 
 [PWA Text Editor - Code](https://github.com/bthalpin/text-editor-app)
 
-[Code Quiz - App](https://bthalpin.github.io/Code-Quiz/)
+[Messaging App - App](https://bthalpin.github.io/messagingApp/)
 
-[Code Quiz - Code](https://github.com/bthalpin/Code-Quiz)
-
-[Daily Planner - App](https://bthalpin.github.io/Daily-Planner/)
-
-[Daily Planner - Code](https://github.com/bthalpin/Daily-Planner)
+[Messaging App - Code](https://github.com/bthalpin/messagingApp)
         
 ## Media
 The following image displays home page (About Me section):
