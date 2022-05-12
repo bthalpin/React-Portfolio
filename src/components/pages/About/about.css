@@ -28,6 +28,9 @@
 
     font-size: 3rem;
 }
+#statement{
+    margin-bottom:1rem;
+}
 @media screen and (max-width:800px) {
     .aboutContainer{
         display:block;
