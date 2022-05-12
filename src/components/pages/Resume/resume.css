@@ -10,7 +10,7 @@
 /* Resume card */
 .resumeContainer{
     margin:2rem auto;
-    width:50vw;
+    width:20vw;
     padding:0.5rem;
     background-color: #5b687e;
     border-top:2px solid #808ea7;
@@ -28,7 +28,7 @@
 }
 .resumeContainer img{
     margin-top:0.5rem;
-    width:48vw;
+    width:18vw;
     border:1px solid #3b4452;
 }
 .resumeLink{
