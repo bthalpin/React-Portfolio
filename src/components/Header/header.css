@@ -19,7 +19,7 @@
     font-weight: 300;
 }
 .navLink{
-    padding:1.4rem;
+    padding:1.3rem;
     text-decoration: none;
     color:white;
     cursor: pointer;
@@ -34,6 +34,8 @@
     color:white;
     /* text-shadow: 0 0 0.5rem white; */
     background-color: #5b74a0;
+    border-bottom:1px solid #f48023;
+
 }
 .navLink,.selected:hover{
     text-shadow: none;
