@@ -13,8 +13,8 @@ function Footer () {
                 <a href="https://www.linkedin.com/in/brian-halpin/">
                     <img className="linkedInLogo" src="/images/linkedin-logo.png" alt="LinkedIn Logo"></img> 
                 </a>
-                <a href="https://stackoverflow.com/users/18813719/bthalpin">
-                    <img className="stackOverflowLogo" src="/images/stackoverflow-logo.png" alt="Stack Overflow Logo"></img> 
+                <a href="mailto:brian.t.halpin@gmail.com">
+                    <img className="emailLink" src="/images/mail.png" alt="Email icon"></img> 
                 </a>
             </div>
         </div>

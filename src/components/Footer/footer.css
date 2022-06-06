@@ -16,14 +16,6 @@
 .footerContainer a{
     /* height:3rem; */
 }
-.githubLogo{
-    width:2.5rem;
-}
-.linkedInLogo{
-    width:2rem;
-
-}
-.stackOverflowLogo{
-    width:1.8rem;
-
+.githubLogo,.linkedInLogo,.emailLink{
+    height:40px;
 }
