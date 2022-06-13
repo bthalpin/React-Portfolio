@@ -51,16 +51,7 @@ function Contact () {
             }
         }
     }
-    // const sendEmail = (e) => {
-    //     e.preventDefault();
     
-    //     emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-    //       .then((result) => {
-    //           console.log(result.text);
-    //       }, (error) => {
-    //           console.log(error.text);
-    //       });
-    //   };
     // Passes the data from the form if the email is valid - console.log the data as placeholder before setting up backend
     const sentEmail = () => {
         setName('')
@@ -68,6 +59,7 @@ function Contact () {
         setMessage('')
         setConfimationMessage('Message sent.  I will be in touch shortly.  Thank you for your interest.')
     }
+    
     const sendEmail = (e) => {
         e.preventDefault();
         if (!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(.\w{2,3})+$/.test(email)){
