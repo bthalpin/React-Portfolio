@@ -1,4 +1,9 @@
-# Portfolio
+# *Original Portfolio(Outdated)*
+
+*This portfolio was refactored with TypeScript and this version is no longer being maintained*
+
+[Current Portfolio](https://github.com/bthalpin/TypeScript-Portfolio)
+
 
 Hi, I'm Brian Halpin and this is the GitHub repo for my portfolio page.  My portfolio was created using React and using React Router for navigating the different pages.  The home page is the About me section with a brief description of who I am.  The portfolio section has a list of six of my top projects, if you click on them you will be taken to a project detail page to get a brief summary of the project and also be presented with a link to the deployed app and the source code on GitHub.  There is also a contact form that uses EmailJS to send out an email.  Finally there is the resume page with a link to download my resume and a brief summary of some of my skills.
 
